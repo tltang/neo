@@ -1,0 +1,46 @@
+[
+  {
+    "datetime_utc": "1911-10-15 06:13",
+    "distance_au": 0.307928165655602,
+    "velocity_km_s": 8.73274823658597,
+    "neo": {
+      "designation": "4947",
+      "name": "Ninkasi",
+      "diameter_km": NaN,
+      "potentially_hazardous": false
+    }
+  },
+  {
+    "datetime_utc": "1911-10-15 12:01",
+    "distance_au": 0.0286104334469547,
+    "velocity_km_s": 4.43569517778563,
+    "neo": {
+      "designation": "363305",
+      "name": null,
+      "diameter_km": NaN,
+      "potentially_hazardous": true
+    }
+  },
+  {
+    "datetime_utc": "1911-10-15 14:10",
+    "distance_au": 0.0286528542556175,
+    "velocity_km_s": 11.4124227651252,
+    "neo": {
+      "designation": "2018 TU4",
+      "name": null,
+      "diameter_km": NaN,
+      "potentially_hazardous": false
+    }
+  },
+  {
+    "datetime_utc": "1911-10-15 19:16",
+    "distance_au": 0.381362839855777,
+    "velocity_km_s": 17.0936978226911,
+    "neo": {
+      "designation": "1036",
+      "name": "Ganymed",
+      "diameter_km": 37.675,
+      "potentially_hazardous": false
+    }
+  }
+]
