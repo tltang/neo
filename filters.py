@@ -20,7 +20,6 @@ import operator
 import itertools
 
 
-
 class AttributeFilter:
     """A general superclass for filters on comparable attributes.
 

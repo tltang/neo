@@ -13,6 +13,8 @@ You'll edit this file in Tasks 2 and 3.
 """
 
 from collections import defaultdict
+
+
 class NEODatabase:
     """A database of near-Earth objects and their close approaches.
 

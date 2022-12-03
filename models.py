@@ -39,7 +39,7 @@ class NearEarthObject:
         """
         self.designation = info['designation']
         self.name = None
-        if info['name'] != '' and info['name'] != None:
+        if info['name'] != '' and info['name'] is not None:
             self.name = info['name']
         self.diameter = float('nan')
         if info['diameter'] != '' and float(info['diameter']) != float('nan'):
@@ -50,10 +50,11 @@ class NearEarthObject:
     @property
     def fullname(self):
         """Return a representation of the full name of this NEO."""
-        if self.name == None:
+        if self.name is None:
             return f"{self.designation}"
         else:
             return f"{self.designation} {self.name}"
+
     @property
     def finaldiameter(self):
         """Return a representation of the diameter of this NEO."""
@@ -61,6 +62,7 @@ class NearEarthObject:
             return "unknown"
         else:
             return f"{self.diameter:.3f}"
+
     def __str__(self):
         """Return `str(self)`."""
         hazardousphrase = ''
@@ -97,7 +99,7 @@ class CloseApproach:
         """
         self._designation = str(info['designation'])
         self.time = None
-        if info['time'] != None:
+        if info['time'] is not None:
             self.time = cd_to_datetime(info['time'])
         self.distance = float(info['distance'])
         self.velocity = float(info['velocity'])
